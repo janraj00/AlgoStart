@@ -1,6 +1,8 @@
 a = int(input())
 b = int(input())
 
+# 1/6 == 0.1(6)
+
 # if a is divisible by b we don't need a dot after integer-division result
 digits_before_dot = f'{a // b}' if a % b == 0 else f'{a // b}.'
 a %= b
